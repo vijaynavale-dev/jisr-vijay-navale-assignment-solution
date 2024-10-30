@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+.tree {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.folder {
+  margin-top: 0.5rem;
+  cursor: pointer;
+  width: fit-content;
+}
+.file {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  width: fit-content;
+}
+.popupDetails {
+  background-color: white;
+  box-shadow: 0.5px 1px 1px;
+  width: fit-content;
+  position: absolute;
+}
+.popupDetails span {
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  border-bottom: 1px solid;
+}
